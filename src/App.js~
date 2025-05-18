@@ -18,7 +18,7 @@ function App() {
     }, [])
 
     return (
-        <ReactLenis options={{autoRaf: false}} ref={lenisRef} root>
+        <ReactLenis options={{autoRaf: false}} ref={lenisRef}>
             <HeroSection/>
         </ReactLenis>
     );
