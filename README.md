@@ -1,4 +1,7 @@
 # GTA 6 Clone Website
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ccdb44d4-6c06-4350-a0f2-e48863baacef" alt="website video" width="100%"/>
+</p>
 
 This is a clone of the [GTA 6 website](https://www.rockstargames.com/VI), built using React.
 
