@@ -106,13 +106,16 @@ section {
 
 
 .logo-container {
+    opacity: 0;
+    background: url("../src/assets/logo.svg") no-repeat center center;
+    background-size: contain;
     position: fixed;
     top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 200px;
     height: 150px;
-    z-index: 2;
+    z-index: 3;
 }
 
 .overlay-copy {
@@ -141,9 +144,6 @@ section {
     z-index: 2;
     background: #111117;
     opacity: 0;
-    /*Start gradient outside centered horizontally and at bottom -50% */
-    /*-webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 60%, rgba(0,0,0,0) 100%);*/
-    /*mask-image: radial-gradient(circle, rgba(0,0,0,1) 60%, rgba(0,0,0,0) 100%);*/
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
     -webkit-mask-size: 100% 100%;
