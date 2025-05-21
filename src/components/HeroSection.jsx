@@ -152,7 +152,7 @@ const HeroSection = () => {
                     pin: true,
                     pinSpacing: true,
                     scrub: true,
-                    markers: true,
+                    // markers: true,
 
                     onUpdate: (self) => {
                         const progress = self.progress;
