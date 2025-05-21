@@ -127,7 +127,7 @@ const HeroSection = () => {
         const ANIMATION_END_MULT_FACTOR = 5;
 
         // Comments are the default values initially, tweak this values to adjust the animations
-        const SCALE_PROGRESS_END = 0.55; // 0.6
+        const SCALE_PROGRESS_END = 0.6; // 0.6
 
         const RADIAL_IN_START = SCALE_PROGRESS_END; // 0.6
         const RADIAL_IN_END = RADIAL_IN_START + 0.2; // 0.7
@@ -135,7 +135,7 @@ const HeroSection = () => {
         const RADIAL_OUT_START = 0.8; // 0.7
         const RADIAL_OUT_END = 1; // 1
 
-        const LOGO_CONTAINER_SCALE_DOWN_START = 0.6; // 0.6
+        const LOGO_CONTAINER_SCALE_DOWN_START = SCALE_PROGRESS_END; // 0.6
         const LOGO_CONTAINER_SCALE_DOWN_IN_MAX = 0.8; // 0.8
 
         const REVEAL_TEXT_START = LOGO_CONTAINER_SCALE_DOWN_START - 0.1; // 0.5
